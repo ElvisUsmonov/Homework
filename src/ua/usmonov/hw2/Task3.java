@@ -1,3 +1,5 @@
+package ua.usmonov.hw2;
+
 import java.util.Scanner;
 public class Task3 {
     public static void main(String[] args) {
@@ -6,10 +8,10 @@ public class Task3 {
 
         Scanner input = new Scanner(System.in);
         a = input.nextInt();
-        System.out.println(isPrime(a));
+        System.out.println(isEven(a));
     }
 
-    public static int isPrime(int a) {
+    public static int isEven(int a) {
         if ( a % 2 == 0 ) {
             System.out.println("Число " + a + " - четное");
         }
